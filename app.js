@@ -22,3 +22,53 @@ let author = "Patrick Rothfuss";
 let pageCount = 722;
 let bookmark = 456;
 let hasRead = true;
+
+
+
+//let title1 = document.getElementById("title");
+
+//title.innerHTML = "Hello World";
+
+// for(let i = 0;i<5; i++){
+//     // console.log(i);
+
+//     let newEl = document.createElement("p");
+//     newEl.innerHTML = i;
+//     title.appendChild(newEl);
+//     console.log(i);
+// }
+
+
+
+// let x = 10;
+// while(x>=0){
+//     let newEl = document.createElement("p");
+//     newEl.innerHTML = i;
+//     title.appendChild(newEl);
+//     console.log(i);
+//     i--;
+// }
+
+let person = {
+    firN: "j",
+    lasN: "w",
+    age: 31,
+}
+
+// for (const prop in person){
+//     let newEl = document.createElement("p");
+//     newEl.innerHTML = i;
+//     title.appendChild(newEl);
+//     console.log(i);
+//     i--;
+//}
+let x = 100;
+do{
+    let newEl = document.createElement("p");
+     newEl.innerHTML = x;
+     title.appendChild(newEl);
+    console.log(x);
+    x--;
+}while(x>=0);
+
+console.log(person);
